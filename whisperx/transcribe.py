@@ -31,6 +31,7 @@ DEFAULT_ALIGN_MODELS_HF = {
     "ja": "jonatasgrosman/wav2vec2-large-xlsr-53-japanese",
     "zh": "jonatasgrosman/wav2vec2-large-xlsr-53-chinese-zh-cn",
     "nl": "jonatasgrosman/wav2vec2-large-xlsr-53-dutch",
+    "ko": "kresnik/wav2vec2-large-xlsr-korean",
 }
 
 
