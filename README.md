@@ -101,7 +101,7 @@ audio_file = "audio.mp3"
 
 # transcribe with original whisper
 model = whisperx.load_model("large", device)
-result = model.transcribe(audio_file)
+result = whisperx.transcribe(model, audio_file)
 
 # load alignment model and metadata
 model_a, metadata = whisperx.load_align_model(language_code=result["language"], device=device)
